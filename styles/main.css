@@ -1,15 +1,12 @@
 * {
     font-family:'Rubik', sans-serif;
     box-sizing: border-box;
-
 }
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 13px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -17,6 +14,10 @@
 }
 .logo {
     width: 155px;
+    margin-top: 10px;
+}
+.nav {
+    margin-bottom: 13px;
 }
 .nav ul{
     display: flex;
@@ -34,8 +35,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 .main h1{
     width: 250px;
@@ -53,13 +52,16 @@
     }
     .logo {
         margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .nav {
         margin-right: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .main h1{
         font-size: 40px;
         line-height: 50px;
     }
- 
 }
